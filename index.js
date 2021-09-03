@@ -3,11 +3,11 @@ const ulEl=document.getElementById("ul-el")
 const inputEl= document.getElementById("#input-el")
 const inputBtn= document.getElementById("#input-btn")
 
-// function saveInput(){
-//     inputEl.textContent=inputEl.value
-//     inputBtn.textContent=myLeads.push(inputEl.value)
-//     ulEl.textContent=myLeads[i]
-// }
+function saveInput(){
+    inputEl.textContent=inputEl.value
+    inputBtn.textContent=myLeads.push(inputEl.value)
+    ulEl.textContent=myLeads[i]
+}
 
 inputBtn.addEventListener("click",function(){
     inputEl.value=""
